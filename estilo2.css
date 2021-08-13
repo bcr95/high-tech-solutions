@@ -44,24 +44,34 @@ header {
 	font-weight: bold;
 }
 
-/* Section */
-#bem-vindo {
-	top: 180px;
-	position: relative;
+/* Section - Fundo */
+#fundo {
+	width: 80%;
+   height: 450px;
+   margin: auto;
+   position: relative;
+   top: 190px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
 }
 
-#gif{
-	display: block;
-  	margin: auto;  	
+/* Section - Sobre */
+#sobre {
+	position: absolute;
+	margin: 40px;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
 }
 
 /* Footer */
 footer {
-	width: 100%;
+	 width: 100%;
     top: 283px;
     padding: 10px 0px 10px 0px;
     background: #ECECEC;
     position: relative;
     text-align: center;
 }
-
