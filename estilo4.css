@@ -1,172 +1,129 @@
-@charset "utf-8";
-/* CSS Document */
-
+/* Body */
 body{
-	width: 100%;
 	padding: 0px;
 	margin: 0px;
-	background-image: url(imagens/fundo.jpg);
+	background-image: url(imagens/rede.jpg);
 	background-position: top;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
-}
-
-/* Super promoção */
-
-#imagem{
-	
-	width: 20%;
-	margin-top: 10%;
-	margin-left: 37%;
-	position: absolute;
-}
-
-#gif{
-	width: 120%;
-	margin-top: 10%;
-	margin-left: 5%;
-	
-}
-
-
-#tabela{
-	position: absolute;
-	left: 30%;
-	margin-top: 20%;
 	font-family: Verdana, Geneva, Arial, sans-serif;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.6);
-background: rgba(0, 0, 0, 0.6);
-width: 40%;
-height: 40%;
-font-family: sans-serif, fantasy;
 }
 
-/* Frete e cartão */
-
-#imagem2{
-	width: 20%;
-	margin-top: 8%;
-	margin-left: 77%;
-	position: absolute;
-}
-
-#gif2{
-	width: 100%;
-	margin-top: 15%;
-	
-	
-}
-
-/* Botão */
-
-.botao {
-padding: 4px 11px;
-
-border: 1px solid #ffcc00;
--moz-border-radius: 8px;
--webkit-border-radius: 8px;
-border-radius: 8px;
-
-background-color: #ffcc00 !important;
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#ff6600)) !important;
-background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ff6600',GradientType=0 );
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2MwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjY2MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-
-font-family:"Segoe UI";
-font-weight: bold;
-color: black;
-text-shadow: 0 1px 0 #666;
-
-box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
-cursor:pointer;
-position: relative;
-}
-
-.botao:hover {
-box-shadow: inset 0 2px 5px #fff, 0 2px 3px #666;
-background: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#ff6600)) !important;
-}
-
-.botao:active {
-box-shadow: inset 0 2px 5px #fff, 0 1px 3px #666 !important;
-top:2px
-}
-
-/* Código do menu */
-
-
+/* Header */
 header {
-	min-height: 60px;
-	position: absolute;
-	top: -22px;
-	right: 0;
-	left: -4px;
-	border-bottom: 1px solid #ccc;
-	background: #ECECEC;
-	z-index: 2;
+	width: 100%;
+    height: 15%;
+    position: absolute;
+    background: #ECECEC;
+    z-index: 2;
 }
 
-.float-l {
-    float: left;	
-}
-
-header h1 {
-    padding: 0 0 0 2%;
-	
-}
-
-.float-r {
-	position: absolute;
-	left: 65%;
-	bottom: 30%;  
-	display:inline;
-	width: 50%;
-	height: -15%;
-}
-
-.list-auto li {
-	width: 10%;	
-}
-
-.list-auto li {
-    width: 10%;
+/* Header - Logotipo */
+#logo {
+	width: 180px;
+    height: 70px;
     float: left;
-	left: 35%;
-    display: block;
+    padding: 13px 100px;
+}
+
+/* Header - Menu */
+.menu {
+	float: right;
+	top: 23px;
+	right: 70px;
+	position: relative;
+}
+.menu li {
+    display: inline-block;
     position: relative;
 }
 
-header ul {
-    padding: 5% 5% 0 5%;
+.menu li a{
+	text-decoration: none;
+	padding: 25px;
+	font-weight: bold;
 }
 
-header li a {
-    display: inline;
-    padding: 5% 20%;
-    color: #999;
-    font-size: 150%;
-	font-family: courier new;
-    line-height: 20%;
-    text-decoration: none;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+/* Section - Fundo */
+.fundo {
+	width: 80%;
+	height: 700px;
+	margin: auto;
+	position: relative;
+	top: 190px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
 }
 
-/* footer */
+/* Conteúdo 1 do fundo */
+#item1{
+	width: 80%;
+	height: 200px;
+	top: 20px;
+	position: relative;
+	margin: auto;
+}
 
-footer{
-	height: 15%;
-	position: absolute;
-	bottom: -15%;
+#note{
+	width: 35%;
+	height: 200px;
+}
+
+#texto1{
+	width: 63%;
+    position: absolute;
+    top: 5px;
+    right: 0;	
+}
+
+/* Conteúdo 2 do fundo */
+#item2{
+	width: 80%;
+	height: 200px;
+	top: 40px;
+	position: relative;
+	margin: auto;
+}
+
+#mouse{
+	width: 35%;
+	height: 200px;
+}
+
+#texto2{
+	width: 62%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/* Conteúdo 3 do fundo */
+#item3{
+	width: 80%;
+	height: 200px;
+	top:  60px;
+	position: relative;
+	margin: auto;
+}
+
+#fone{
+	width: 35%;
+	height: 200px;
+}
+
+#texto3{
+	width: 60%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/* Footer */
+footer {
 	width: 100%;
-	color: #000000;
-	right: 0%;
-	color: black;
-	background-color: #ECECEC;
+    top: 301px;
+    padding: 10px 0px 10px 0px;
+    background: #ECECEC;
+    position: relative;
+    text-align: center;
 }

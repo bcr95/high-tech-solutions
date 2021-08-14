@@ -1,86 +1,53 @@
-﻿<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Documento sem título</title>
-<link rel="stylesheet" href="estilo5.css"/>
-</head>
-
-<body>
-<header>
-    <h1 class="float-l">
-      <a href="#" title="Info">
-      <img name="logo" src="imagens/logo.png" width="346" height="96" id="logo" alt="" />      </a>
-  </h1>
-  <nav>
-	<ul class="list-auto">
-	  <li><center><b><a href="home.jsp">Home</a></b></center></li>
-	  <li><center><b><a href="Produtos.jsp">Produtos</a></b></center></li>
-	  <li><center><b><a href="sobre.jsp">Sobre</a></b></center></li>
-      <li><center><b><a href="login.jsp">Login</a></b></center></li>
-	</ul>
-  </nav>
-  </header>
-  
-<form action="" id="corpo"> <br><br>
-  	
-       <article>
-   	   <ul id="secao">
-   		<li class="produtos"> 
-          <center><h5> Teclado Gamer OEX</h5></center><br>
-           <center> <img src="imagens/teclado.png" width="400px" height="200px"> </center>
-            <center>
-              <p>Preço: R$60,00
-           		<p><a href="#"><span class="botao">Comprar</span></a></p></center>
-                  </li>
-                        
-            <li class="produtos"> 
-              <center><h5> Headset Pro Gaming </h5></center><br>
-            	<center> <img src="imagens/fone.png" width="400px" height="200px"> </center>
-            	  <center>
-                    <p>Preço: R$120,00
-           		      <p><a href="#"><span class="botao">Comprar</span></a></p></center>
-                        </li>
-                        
-             <li class="produtos">
-               <center><h5> Monitor LG LED 23´ IPS D-Sub, HDMI,Full HD  </h5></center><br>
-            	<center> <img src="imagens/monitor.png" width="400px" height="200px"> </center>
-            	 <center>
-                   <p>Preço: R$660,00
-           			 <p><a href="#"><span class="botao">Comprar</span></a></p></center>
-                       </li>
-                        
-           	  <li class="produtos">
-                <center><h5>  Notebook Acer Aspire com Intel Core i5-5200U, 8GB, HD 1TB, Windows 10, Tela 15.6´ E5-573-54ZV </h5></center><br>
-            	 <center> <img src="imagens/not.png" width="400px" height="200px"> </center>
-            	  <center>
-                    <p>Preço: R$3.200,00
-           		      <p><a href="#"><span class="botao">Comprar</span></a></p></center>
-                        </li>
-                      
-            	<li class="produtos">  
-                  <center><h5> PC Gamer Extreme ICC E4582 com Intel Core i5 4460, 8GB, HD 1TB  </h5></center><br>
-            		<center> <img src="imagens/pc.png" width="400px" height="200px"> </center>
-            		  <center>
-                       <p>Preço: R$3.300,00
-           				<p><a href="#"><span class="botao">Comprar</span></a></p></center>
-                         </li>
-                        
-                 <li class="produtos">  
-                   <center><h5> Mouse Gamer  </h5></center><br>
-            		 <center> <img src="imagens/mouse.png" width="400px" height="200px"> </center>
-            		   <center>
-                        <p>Preço: R$55,00
-           				 <p><a href="#"><span class="botao">Comprar</span></a></p></center>
-             </ul>
-  </article>
-     </form>
-   
-  <footer>
-  <center><br><br>
-  High Tech Solutions Informática.<br> 2016 © Todos os direitos reservados.
-  </center>
-  </footer>
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>High Tech Solutions - Produtos</title>
+        <link rel="stylesheet" href="estilo4.css"/>
+    </head>
+    <body>
+        <header>
+            <img name="logo" src="imagens/logo.png" id="logo" alt="logo">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </nav> 
+        </header>
+        <section>
+            <div class="fundo">
+                <div id="item1">
+                    <img src="imagens/not.png" id="note" name="note" alt="Notebook">
+                    <div id="texto1">
+                        <h2>Notebook Acer Aspire com Intel Core i5-5200U, 8GB, HD 1TB, Windows 10, Tela 15.6´ E5-573-54ZV</h2>
+                        <p>Por apenas: R$ 3.200,00
+                        <br>Ou em 10x de R$ 320,00.</p>
+                    </div>
+                </div>
+                <div id="item2">
+                    <img src="imagens/mouse.png" id="mouse" name="mouse" alt="Mouse">
+                    <div id="texto2">
+                        <h2>Mouse Pro Gaming</h2>
+                        <p>Por apenas R$ 55,00</p>
+                    </div>
+                </div>
+                <div id="item3">
+                    <img src="imagens/fone.png" id="fone" name="fone" alt="Headset">
+                    <div id="texto3">
+                        <h2>Headset Pro Gaming</h2>
+                        <p>Por apenas: R$ 120,00
+                        <br>Ou em 10x de R$ 12,00.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            High Tech Solutions Informática.
+            <br> 2016 © Todos os direitos reservados.
+        </footer>
+    </body>
 </html>
