@@ -79,3 +79,60 @@ header {
 	padding: 10px;
 	position: absolute;
 }
+
+/* Section - Serviços e Imagens */
+.fundo2 {
+	width: 100%;
+    height: 400px;
+    background-color: rgba(169, 167, 167, 0.4);
+    position: absolute;
+    top: 600px;
+    font-family: verdana;
+    font-weight: bold;
+}
+#servicos {
+	width: 80%;
+	height: 363px;
+	top: 20px;
+	background-color: rgba(255, 255, 255, 0.9);
+	position: relative;
+	margin: auto;
+	border-radius: 12px;
+}
+#conteudo2 {
+	bottom: 200px;
+	padding: 10px;
+	position: absolute;
+}
+#imagens {
+	width: 100%;
+    height: 190px;
+    left:  100px;
+	position: absolute;
+}
+#site {
+	width: 25%;
+	height: 180px;
+	position: absolute;
+}
+#suporte {
+	width: 25%;
+	height: 180px;
+	left: 300px;
+	position: absolute;
+}
+#codigo {
+	width: 25%;
+	height: 180px;
+	left: 590px;
+	position: absolute;
+}
+
+/* Section - Contato */
+.contato {
+	width: 100%;
+	height: 500px;
+	top: 1000px;
+	background-color: black;
+	position: absolute;
+}
