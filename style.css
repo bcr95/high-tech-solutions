@@ -105,48 +105,51 @@ header {
     float: right;
 }
 #texto h1 {
-	font-family: verdana;
+	font-family: "Arimo", sans-serif;
 	font-size: 30px;
 }
 #texto p {
 	font-size: 16px;
-}
-/*
-Section - Fundo, Sobre e Conteúdo
-.fundo{
-	width: 100%;
-	height: 500px;
-    top: 100px;
-	background-image: url(imagens/rede.jpg);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: absolute;
-	font-family: verdana;
-	font-weight: bold;
-}
-#sobre {
-	width: 80%;
-	height: 460px;
-	top: 20px;
-	background-color: rgba(255, 255, 255, 0.9);
-	position: relative;
-	margin: auto;
-	border-radius: 12px;
-}
-#logo {
-	width: 55%;
-    height: 250px;
-    top: 43%;
-    left: 465px;
-    position: absolute;
-}
-#conteudo {
-	bottom: 15px;
-	padding: 10px;
-	position: absolute;
+	font-family: "Arimo", sans-serif;
 }
 
+/* Section - Fundo, Sobre e Conteúdo */
+.sobre{
+	width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 600px;
+}
+#conteudo-sobre {
+	width: 80%;
+	height: 365px;
+	display: block;
+	margin: 0 auto;
+}
+#conteudo-sobre h1 {
+	text-align: center;
+    font-size: 35px;
+    font-family: "Arimo", sans-serif;
+}
+hr {
+	width: 50%;
+}
+#conteudo {
+	width: 100%;
+    height: 300px;
+}
+#conteudo p {
+	width: 48%;
+	font-size: 17px;
+	font-family: "Arimo", sans-serif;
+}
+#log {
+	width: 50%;
+    height: 270px;
+    float: right;
+    margin-top: -271px;
+}
+/*
  Section - Serviços e Imagens 
 .fundo2 {
 	width: 100%;
