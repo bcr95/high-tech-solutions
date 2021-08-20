@@ -3,49 +3,116 @@ body {
 	padding: 0;
 }
 
-/* Header - Logotipo e Menu */
+/* Header */
 header {
 	width: 100%;
-	height: 100px;
-	background-color: rgba(169, 167, 167, 0.4);
+	height: 600px;
+	background-image: url(imagens/rede.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	position: absolute;
 }
 
-.logotipo {
-	width: 20%;
-    padding: 24px;
-    text-align: center;
-    font-family: arial;
-    font-weight: bold;
+/* Header - Fundo */
+.logo-menu {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	display: block;
+	margin: 0 auto;
 }
 
-.menu {
-	float: right;
-	position: relative;
-	bottom: 100px;
-	padding: 24px;
+#home {
+	width: 80%;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
 }
-.menu ul{
+/* Header - Logotipo */
+#logotipo {
+	width: 30%;
+    height: 100px;
+    float: left;
+    position: absolute;
+}
+
+#logo {
+	width: 40%;
+    height: 80px;
+    padding: 5px;
+}
+
+/* Header - Menu */
+#menu {
+	width: 45%;
+    height: 100px;
+    float: right;
+}
+
+#menu ul{
 	list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.menu li{
-	padding: 45px;
-	display: inline;
-	position: relative;
+#menu li{
+	display: inline-block;
+    padding: 20px 20px;
 }
 
-.menu li a{
+#menu li a{
 	text-decoration: none;
 	font-family: arial;
     font-weight: bold;
+    color: black;
 }
 
-.menu li a:hover{
+#menu li a:hover{
 	text-shadow: 2px 2px 2px rgba(125, 125, 125, 0.6);
 }
 
-/* Section - Fundo, Sobre e Conteúdo */
+/* Header - Fundo para imagem e texto */
+.bem-vindo {
+	width: 60%;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: block;
+	margin: 0 auto;
+	margin-top: 155px;
+	position: relative;
+}
+
+/* Header - Fundo para a imagem */
+#imagem {
+	width: 60%;
+	height: 400px;
+}
+
+/* Header - Imagem */
+#suporte {
+	width: 100%;
+    height: 400px;
+}
+
+/* Header - Texto */
+#texto {
+	width: 37%;
+    height: 100px;
+    margin-top: -410px;
+    margin-right: 10px;
+    float: right;
+}
+#texto h1 {
+	font-family: verdana;
+	font-size: 30px;
+}
+#texto p {
+	font-size: 16px;
+}
+/*
+Section - Fundo, Sobre e Conteúdo
 .fundo{
 	width: 100%;
 	height: 500px;
@@ -80,7 +147,7 @@ header {
 	position: absolute;
 }
 
-/* Section - Serviços e Imagens */
+ Section - Serviços e Imagens 
 .fundo2 {
 	width: 100%;
     height: 400px;
@@ -94,7 +161,7 @@ header {
 	width: 80%;
 	height: 363px;
 	top: 20px;
-	background-color: /*rgba(255, 255, 255, 0.9);*/;
+	background-color: ;
 	position: relative;
 	margin: auto;
 	border-radius: 12px;
@@ -128,12 +195,12 @@ header {
 	position: absolute;
 }
 
-/* Section - Contato e Endereço */
+ Section - Contato e Endereço 
 .fundo3 {
 	width: 100%;
 	height: 500px;
 	top: 1000px;
-	/*background-color: rgba(169, 167, 167, 0.4);*/
+	/*background-color: 
 	background-image: url(imagens/fundo.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
@@ -181,7 +248,7 @@ textarea {
 	font-family: verdana;
 }
 
-/* Footer */
+ Footer 
 footer {
 	width: 100%;
 	height: 60px;
@@ -194,7 +261,7 @@ footer {
 }
 .texto {
 	margin: 20px;
-}
+} */
 
 
 
