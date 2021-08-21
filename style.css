@@ -116,7 +116,7 @@ header {
 /* Section - Fundo, Sobre e Conteúdo */
 .sobre{
 	width: 100%;
-    height: 400px;
+    height: 420px;
     position: absolute;
     margin-top: 600px;
 }
@@ -150,54 +150,55 @@ hr {
     margin-top: -271px;
 }
 /*
- Section - Serviços e Imagens 
-.fundo2 {
+ Section - Serviços e Imagens */
+.servicos {
 	width: 100%;
-    height: 400px;
-    background-color: rgba(169, 167, 167, 0.4);
+    height: 470px;
     position: absolute;
-    top: 600px;
-    font-family: verdana;
-    font-weight: bold;
+    margin-top: 1020px;
+    background-image: url(imagens/fundo.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-#servicos {
+#conteudo-servicos {
 	width: 80%;
-	height: 363px;
-	top: 20px;
-	background-color: ;
-	position: relative;
-	margin: auto;
-	border-radius: 12px;
+	height: 365px;
+	display: block;
+	margin: 0 auto;
+}
+#conteudo-servicos h1 {
+	text-align: center;
+    font-size: 35px;
+    font-family: "Arimo", sans-serif;
+    color: white;
 }
 #conteudo2 {
-	bottom: 200px;
-	padding: 10px;
+	width: 80%;
 	position: absolute;
+}
+#conteudo2 p {
+	font-size: 17px;
+	font-family: "Arimo", sans-serif;
+	color: white;
 }
 #imagens {
-	width: 100%;
+	width: 60%;
     height: 190px;
-    left:  100px;
-	position: absolute;
+    display: block;
+    margin: 0 auto;
 }
 #site {
-	width: 25%;
-	height: 180px;
-	position: absolute;
-}
-#suporte {
-	width: 25%;
-	height: 180px;
-	left: 300px;
-	position: absolute;
+	width: 45%;
+    height: 190px;
+    float: left;
 }
 #codigo {
-	width: 25%;
-	height: 180px;
-	left: 590px;
-	position: absolute;
+	width: 45%;
+    height: 190px;
+    float: right;
 }
-
+/*
  Section - Contato e Endereço 
 .fundo3 {
 	width: 100%;
