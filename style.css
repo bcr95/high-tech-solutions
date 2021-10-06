@@ -9,28 +9,25 @@
 	header {
 		width: 17.5rem;
 		height: 10rem;
-		background-image: url("imagens/fundo.jpg");
-		background-repeat: no-repeat;
-		background-position: right top;
+		background: url("imagens/fundo.jpg") no-repeat right top fixed;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 	}
 
-	.cabecalho-fundo {
-		width: 14rem;
-		height: 7rem;
-		background-color: rgba(255, 255, 255, 0.6);
-		display: flex;
-		justify-content: center;
-		margin-top: 1.5rem;
-		border-radius: 0.8rem;
-	}
-
-	/* Cabeçalho - Logotipo */
-	#logo {
-		width: 12rem;
+	.cabecalho {
+		width: 11rem;
 		height: 6rem;
-		margin: auto;
+		background-color: rgba(255, 255, 255, 0.6);
+		border-radius: 0.8rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#logo {
+		width: 10rem;
+		height: 5rem;
 	}
 
 	/* Menu */
@@ -41,172 +38,146 @@
 	/* Conteúdo */
 	.conteudo {
 		width: 17.5rem;
-		height: 53rem;
+		height: 59rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		font-size: 0.7em;
+		align-items: center;
 	}
 
-	/* Conteúdo - Sobre */
+	/* Sobre */
 	.conteudo-sobre {
 		width: 15rem;
-		height: 12rem;
-		background-color: rgb(255, 255, 255);
-		margin: 0 auto;
-		padding-top: 0.7rem;
-    	padding-bottom: 0.5rem;
+		height: 12.5rem;
 	}
 
 	h1 {
-		margin-top: 0;
-    	margin-bottom: 0;
-    	color: #00334d;
-	}
-
-	h2 {
-		color: #00334d;
+		margin-bottom: 0;
+		font-size: 0.8rem;
+		color: #000066;
 	}
 
 	hr {
+		width: 5rem;
+		margin-top: 0.3rem;
 		margin-left: 0;
-    	width: 8rem;
 	}
 
 	p {
+		font-size: 0.5rem;
 		color: #666666;
 	}
 
 	#acesso {
-		width: 10rem;
-		height: 5rem;
-		margin-left: 2.5rem;
-    	margin-right: 2.5rem;
-    	border-radius: 0.8rem;
+		width: 9rem;
+    	margin-left: 3rem;
+    	margin-right: 3rem;
+		border-radius: 0.8rem;
 	}
 
-	/* Conteúdo - Mensagem */
-	.conteudo-sobre-msg {
+	/* Solução */
+	.conteudo-sobre-solucao {
 		width: 17.5rem;
-		height: 14rem;
-		background-color: #d3d3d3;
+		height: 6rem;
+		background-color: #e6e6ff;
+	}
+
+	.conteudo-sobre-solucao h2 {
+		text-align: center;
+		margin-bottom: 0.3rem;
+		font-size: 0.8rem;
+		color: #000066;
+	}
+
+	.conteudo-sobre-solucao p {
+		width: 15rem;
 		margin: 0 auto;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		text-align: center;
 	}
 
-	h2 {
-		margin-bottom: 0.5rem;
-	}
-
-	.conteudo-sobre-msg p {
+	/* Serviços */
+	.conteudo-servicos {
 		width: 15rem;
-		margin: 0 auto;
+		height: 27rem;
 	}
 
-	#site {
-		width: 10rem;
-		height: 5rem;
-		margin-top: 0.5rem;
-		margin-left: 2.5rem;
-    	margin-right: 2.5rem;
-    	border-radius: 0.8rem;
-	}
-
-	/* Conteúdo - Serviços */
-	.conteudo-sobre-servicos {
-		width: 15rem;
-		height: 26rem;
-		background-color: rgb(255, 255, 255);
+	.conteudo-servicos-imagens {
+		width: 12rem;
+		height: 24rem;
 		margin: 0 auto;
-		font-size: 0.7rem;
-		padding-top: 0.7rem;
-    	padding-bottom: 1rem;
-	}
-
-	#conteudo-sobre-servicos-imagens {
-		width: 15rem;
-		height: 25rem;
-		margin: 0 auto;
+		margin-top: 1rem;
 		display: flex;
 		flex-direction: column;
-		margin-top: 1rem;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.conteudo-servicos-imagens p {
+		text-align: center;
+		font-size: 0.6rem;
 	}
 
 	#imagem1, #imagem2, #imagem3 {
-		width: 15rem;
+		width: 12rem;
 		height: 8rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	#rede, #suporte, #programacao {
-		width: 10rem;
-		height: 5rem;
-		margin-left: 2.5rem;
-    	margin-right: 2.5rem;
-    	border-radius: 0.8rem;
+	#suporte, #java, #rede {
+		width: 9rem;
+		border-radius: 0.8rem;
 	}
 
-	#conteudo-sobre-servicos-imagens p {
+	/* Missão */
+	.conteudo-missao {
+		width: 17.5rem;
+		height: 6rem;
+		background-color: #e6e6ff;
+	}
+
+	.conteudo-missao h2 {
+		margin-bottom: 0.3rem;
 		text-align: center;
+		font-size: 0.8rem;
+		color: #000066;
+	}
+
+	.conteudo-missao p {
+		width: 15rem;
+		margin: 0 auto;
+		font-size: 0.5rem;
+		text-align: center;
+	}
+
+	/* Contato */
+	.conteudo-contato {
+		width: 15rem;
+		height: 8.5rem;
+	}
+
+	#whatsapp, #instagram, #facebook, #gmail {
+		width: 1rem;
+		position: absolute;
+	}
+
+	.conteudo-contato p {
+		font-size: 0.6rem;
+    	margin-left: 1.2rem;
 	}
 
 	/* Rodapé */
 	footer {
 		width: 17.5rem;
-		height: 12rem;
-		font-size: 0.7rem;
-		background-color: lightgray;
+    	height: 8rem;
+    	text-align: center;
+    	background-color: #000066;
 	}
 
-	/* Rodapé - Contato */
-	.conteudo-sobre-contato {
-		width: 15rem;
-		height: 8.8rem;
-		margin: 0 auto;
-		padding-top: 0.5rem;
-	}
-
-	.conteudo-sobre-contato h1 {
-		font-size: 1.5em;
-	}
-
-	.conteudo-sobre-contato p {
-		padding-left: 1.5rem;
-	}
-
-	/* Rodapé - Redes Sociais */
-	#whatsapp, #facebook, #instagram, #gmail {
-		width: 1.2rem;
-    	position: absolute;
-	}
-
-	#facebook, #instagram, #gmail {
-		margin-top: -0.1rem;
-	}
-
-	#whatsapp {
-		margin-top: 0.26rem;
-	}
-
-	/* Rodapé - Autor */
 	.autor {
-		width: 17.5rem;
-		height: 3.5rem;
-		background-color: #00334d;
-		text-align: center;
-	}
-
-	.autor p {
-		padding-top: 0.65rem;
-    	margin-bottom: 0;
 		color: rgb(255, 255, 255);
+		padding-top: 0.6rem;
 	}
-
-	.autor p:last-child {
-		padding-top: 0;
-    	margin-top: 0;
-	}
-
 }
-
-
