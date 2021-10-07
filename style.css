@@ -79,7 +79,7 @@
 	.conteudo-sobre-solucao {
 		width: 17.5rem;
 		height: 6rem;
-		background-color: #e6e6ff;
+		background-color: #e0ebeb;
 	}
 
 	.conteudo-sobre-solucao h2 {
@@ -135,7 +135,7 @@
 	.conteudo-missao {
 		width: 17.5rem;
 		height: 6rem;
-		background-color: #e6e6ff;
+		background-color: #e0ebeb;
 	}
 
 	.conteudo-missao h2 {
@@ -163,6 +163,10 @@
 		position: absolute;
 	}
 
+	#whatsapp {
+		margin-top: 0.1rem;
+	}
+
 	.conteudo-contato p {
 		font-size: 0.6rem;
     	margin-left: 1.2rem;
@@ -173,7 +177,7 @@
 		width: 17.5rem;
     	height: 2rem;
     	text-align: center;
-    	background-color: #000066;
+    	background-color: #669999;
 	}
 
 	.autor {
@@ -579,6 +583,143 @@
 
 	.autor {
 		padding-top: 0.8rem;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+	
+	/* Cabeçalho */
+	header {
+		width: 48rem;
+    	height: 18rem;
+	}
+
+	.cabecalho {
+		width: 30rem;
+    	height: 15rem;
+	}
+
+	#logo {
+		width: 23rem;
+    	height: 11rem;
+	}
+
+	/* Menu */
+	.menu {
+		display: none;
+	}
+
+	/* Conteúdo */
+	.conteudo {
+		width: 48rem;
+    	height: 130rem;
+	}
+
+	/* Sobre */
+	.conteudo-sobre {
+		width: 44rem;
+    	height: 30rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	hr {
+		width: 13rem;
+	}
+
+	p {
+		font-size: 1.3rem;
+	}
+
+	#acesso {
+		width: 25rem;
+    	margin-left: 9rem;
+	}
+
+	/* Solução */
+	.conteudo-sobre-solucao {
+		width: 48rem;
+    	height: 12rem;
+	}
+
+	.conteudo-sobre-solucao h2 {
+		font-size: 1.8rem;
+	}
+
+	.conteudo-sobre-solucao p {
+		width: 44rem;
+    	font-size: 1.3rem;
+	}
+
+	/* Serviços */
+	.conteudo-servicos {
+		width: 44rem;
+    	height: 57rem;
+	}
+
+	.conteudo-servicos-imagens {
+		width: 35rem;
+    	height: 50rem;
+	}
+
+	.conteudo-servicos-imagens p {
+		font-size: 1.3rem;
+	}
+
+	#imagem1, #imagem2, #imagem3 {
+		width: 35rem;
+    	height: 20rem;
+	}
+
+	#suporte, #java, #rede {
+		width: 20rem;
+	}
+
+	/* Missão */
+	.conteudo-missao {
+		width: 48rem;
+    	height: 13rem;
+	}
+
+	.conteudo-missao h2 {
+		font-size: 1.8rem;
+	}
+
+	.conteudo-missao p {
+		width: 44rem;
+    	font-size: 1.3rem;
+	}
+
+	/* Contato */
+	.conteudo-contato {
+		width: 44rem;
+    	height: 18rem;
+	}
+
+	#whatsapp, #instagram, #facebook, #gmail {
+		width: 2rem;
+	}
+
+	#whatsapp {
+		margin-top: 0.8rem;
+	}
+
+	.conteudo-contato p {
+		font-size: 1.3rem;
+    	margin-left: 2.5rem;
+	}
+
+	/* Rodapé */
+	footer {
+		width: 48rem;
+    	height: 4rem;
+	}
+
+	.autor {
+		padding-top: 1rem;
 	}
 
 }
