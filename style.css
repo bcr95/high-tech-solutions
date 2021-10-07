@@ -171,7 +171,7 @@
 	/* Rodapé */
 	footer {
 		width: 17.5rem;
-    	height: 8rem;
+    	height: 2rem;
     	text-align: center;
     	background-color: #000066;
 	}
@@ -180,4 +180,405 @@
 		color: rgb(255, 255, 255);
 		padding-top: 0.6rem;
 	}
+
+}
+
+@media screen and (min-width: 300px) {
+	
+	/* Cabeçalho */
+	header {
+		width: 22.5rem;
+    	height: 11rem;
+	}
+
+	.cabecalho {
+		width: 15rem;
+    	height: 8rem;
+	}
+
+	#logo {
+		width: 12.5rem;
+    	height: 6rem;
+	}
+
+	/* Menu */
+	.menu {
+		display: none;
+	}
+
+	/* Conteúdo */
+	.conteudo {
+		width: 22.5rem;
+		height: 72rem;
+	}
+
+	/* Sobre */
+	.conteudo-sobre {
+		width: 20rem;
+    	height: 19rem;
+	}
+
+	h1 {
+		font-size: 1rem;
+	}
+
+	hr {
+		width: 7rem;
+	}
+
+	p {
+		font-size: 0.7rem;
+	}
+
+	#acesso {
+		width: 12rem;
+    	margin-left: 4rem;
+    	margin-right: 4rem;
+	}
+
+	/* Solução */
+	.conteudo-sobre-solucao {
+		width: 22.5rem;
+    	height: 8rem;
+	}
+
+	.conteudo-sobre-solucao h2 {
+		font-size: 0.9rem;
+	}
+
+	.conteudo-sobre-solucao p {
+		width: 20rem;
+    	font-size: 0.7rem;
+	}
+
+	/* Serviços */
+	.conteudo-servicos {
+		width: 20rem;
+    	height: 35rem;
+	}
+
+	.conteudo-servicos-imagens {
+		width: 16rem;
+    	height: 28.5rem;
+	}
+
+	.conteudo-servicos-imagens p {
+		font-size: 0.7rem;
+	}
+
+	#imagem1, #imagem2, #imagem3 {
+		width: 16rem;
+    	height: 10rem;
+	}
+
+	#suporte, #java, #rede {
+		width: 11.5rem;
+	}
+
+	/* Missão */
+	.conteudo-missao {
+		width: 22.5rem;
+    	height: 9rem;
+	}
+
+	.conteudo-missao h2 {
+		font-size: 0.9rem;
+	}
+
+	.conteudo-missao p {
+		width: 20rem;
+    	font-size: 0.7rem;
+	}
+
+	/* Contato */
+	.conteudo-contato {
+		width: 20rem;
+    	height: 10rem;
+	}
+
+	#whatsapp, #instagram, #facebook, #gmail {
+		width: 1.3rem;
+	}
+
+	.conteudo-contato p {
+		font-size: 0.7rem;
+    	margin-left: 1.6rem;
+	}
+
+	/* Rodapé */
+	footer {
+		width: 22.5rem;
+		height: 3rem;
+	}
+
+	.autor {
+		padding-top: 0.8rem;
+	}
+
+}
+
+@media screen and (min-width: 400px) {
+	
+	/* Cabeçalho */
+	header {
+		width: 25.7rem;
+    	height: 13rem;
+	}
+
+	.cabecalho {
+		width: 18rem;
+    	height: 10rem;
+	}
+
+	#logo {
+		width: 15rem;
+    	height: 7rem;
+	}
+
+	/* Menu */
+	.menu {
+		display: none;
+	}
+
+	/* Conteúdo */
+	.conteudo {
+		width: 25.7rem;
+    	height: 90rem;
+	}
+
+	/* Sobre */
+	.conteudo-sobre {
+		width: 23rem;
+    	height: 19rem;
+	}
+
+	h1 {
+		font-size: 1.3rem;
+	}
+
+	hr {
+		width: 9rem;
+	}
+
+	p {
+		font-size: 0.9rem;
+	}
+
+	#acesso {
+		width: 14rem;
+    	margin-left: 4.5rem;
+    	margin-right: 4.5rem;
+	}
+
+	/* Solução */
+	.conteudo-sobre-solucao {
+		width: 25.7rem;
+    	height: 9rem;
+	}
+
+	.conteudo-sobre-solucao h2 {
+		font-size: 1.1rem;
+	}
+
+	.conteudo-sobre-solucao p {
+		width: 23rem;
+    	font-size: 0.9rem;
+	}
+
+	/* Serviços */
+	.conteudo-servicos {
+		width: 23rem;
+    	height: 40rem;
+	}
+
+	.conteudo-servicos-imagens {
+		width: 20rem;
+    	height: 35rem;
+	}
+
+	.conteudo-servicos-imagens p {
+		font-size: 0.9rem;
+	}
+
+	#imagem1, #imagem2, #imagem3 {
+		width: 20rem;
+    	height: 12rem;
+	}
+
+	#suporte, #java, #rede {
+		width: 14rem;
+	}
+
+	/* Missão */
+	.conteudo-missao {
+		width: 25.7rem;
+    	height: 10rem;
+	}
+
+	.conteudo-missao h2 {
+		font-size: 1.1rem;
+	}
+
+	.conteudo-missao p {
+		width: 23rem;
+    	font-size: 0.9rem;
+	}
+
+	/* Contato */
+	.conteudo-contato {
+		width: 23rem;
+    	height: 13rem;
+	}
+
+	#whatsapp, #instagram, #facebook, #gmail {
+		width: 1.5rem;
+	}
+
+	.conteudo-contato p {
+		font-size: 0.9rem;
+    	margin-left: 1.9rem;
+	}
+
+	/* Rodapé */
+	footer {
+		width: 25.7rem;
+	}
+
+	.autor {
+		padding-top: 0.8rem;
+	}
+
+}
+
+@media screen and (min-width: 500px) {
+	
+	/* Cabeçalho */
+	header {
+		width: 33.7rem;
+    	height: 15rem;
+	}
+
+	.cabecalho {
+		width: 21rem;
+    	height: 12rem;
+	}
+
+	#logo {
+		width: 18rem;
+    	height: 9rem;
+	}
+
+	/* Menu */
+	.menu {
+		display: none;
+	}
+
+	/* Conteúdo */
+	.conteudo {
+		width: 33.7rem;
+    	height: 96rem;
+	}
+
+	/* Sobre */
+	.conteudo-sobre {
+		width: 30rem;
+    	height: 25rem;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	hr {
+		width: 10rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	#acesso {
+		width: 18rem;
+    	margin-left: 5.5rem;
+    	margin-right: 5.5rem;
+	}
+
+	/* Solução */
+	.conteudo-sobre-solucao {
+		width: 33.7rem;
+    	height: 10rem;
+	}
+
+	.conteudo-sobre-solucao h2 {
+		font-size: 1.2rem;
+	}
+
+	.conteudo-sobre-solucao p {
+		width: 30rem;
+    	font-size: 1rem;
+	}
+
+	/* Serviços */
+	.conteudo-servicos {
+		width: 30rem;
+    	height: 45rem;
+	}
+
+	.conteudo-servicos-imagens {
+		width: 25rem;
+    	height: 40rem;
+	}
+
+	.conteudo-servicos-imagens p {
+		font-size: 1rem;
+	}
+
+	#imagem1, #imagem2, #imagem3 {
+		width: 25rem;
+    	height: 15rem;
+	}
+
+	#suporte, #java, #rede {
+		width: 16rem;
+	}
+
+	/* Missão */
+	.conteudo-missao {
+		width: 33.7rem;
+    	height: 11rem;
+	}
+
+	.conteudo-missao h2 {
+		font-size: 1.2rem;
+	}
+
+	.conteudo-missao p {
+		width: 30rem;
+    	font-size: 1rem;
+	}
+
+	/* Contato */
+	.conteudo-contato {
+		width: 30rem;
+    	height: 15rem;
+	}
+
+	#whatsapp, #instagram, #facebook, #gmail {
+		width: 1.5rem;
+	}
+
+	.conteudo-contato p {
+		font-size: 0.9rem;
+    	margin-left: 1.9rem;
+	}
+
+	/* Rodapé */
+	footer {
+		width: 33.7rem;
+	}
+
+	.autor {
+		padding-top: 0.8rem;
+	}
+
 }
