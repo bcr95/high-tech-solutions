@@ -45,7 +45,7 @@
     	display: block;
     	position: fixed;
     	right: 0.5rem;
-    	bottom: 1rem;
+    	bottom: 2.5rem;
 	}
 
 	/* Conteúdo */
@@ -225,6 +225,11 @@
 		display: none;
 	}
 
+	/* Botão para ir ao topo */
+	#top {
+		bottom: 3rem;
+	}
+
 	/* Conteúdo */
 	.conteudo {
 		width: 22.5rem;
@@ -362,10 +367,8 @@
 	/* Botão de ir ao topo */
 	#top {
 		width: 3.5rem;
-    	display: block;
-    	position: fixed;
     	right: 0.5rem;
-    	bottom: 1rem;
+    	bottom: 3.5rem;
 	}
 
 	/* Conteúdo */
@@ -641,8 +644,8 @@
 	/* Botão de ir ao topo */
 	#top {
 		width: 5rem;
-    	right: 1.5rem;
-    	bottom: 2rem;
+    	right: 1rem;
+    	bottom: 4.5rem;
 	}
 
 	/* Conteúdo */
@@ -785,6 +788,7 @@
 	/* Botão de ir ao topo */
 	#top {
 		width: 7rem;
+		bottom: 7rem;
 	}
 
 	/* Conteúdo */
@@ -962,7 +966,7 @@
     	display: block;
     	position: fixed;
     	right: 1rem;
-    	bottom: 3rem;
+    	bottom: 5rem;
 	}
 
 	#top:hover {
