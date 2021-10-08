@@ -17,11 +17,12 @@
 		</header>
 		<nav class="menu">
 			<ul>
-				<li>Home</li>
-				<li>Serviços</li>
-				<li>Contato</li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#conteudo-servicos">Serviços</a></li>
+				<li><a href="#conteudo-contato">Contato</a></li>
 			</ul>
 		</nav>
+		<img src="imagens/top.png" id="top" alt="Ir para o topo" onclick="topFunction()">
 		<main class="conteudo">
 			<section class="conteudo-sobre">
 				<h1>A Empresa</h1>
@@ -36,20 +37,20 @@
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco.</p>
 			</article>
-			<section class="conteudo-servicos">
+			<section class="conteudo-servicos" id="conteudo-servicos">
 				<h1>Serviços</h1>
 				<hr>
 				<div class="conteudo-servicos-imagens">
 					<div id="imagem1">
-						<img src="imagens/suporte.jpg" id="suporte" alt="Suporte Técnico">
+						<img src="imagens/suporte.jpg" id="suporte" alt="Suporte Técnico" loading="lazy">
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div id="imagem2">
-						<img src="imagens/javaweb.jpg" id="java" alt="Linguagem Java">
+						<img src="imagens/javaweb.jpg" id="java" alt="Linguagem Java" loading="lazy">
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div id="imagem3">
-						<img src="imagens/rede.jpg" id="rede" alt="Cabeamento">
+						<img src="imagens/rede.jpg" id="rede" alt="Cabeamento" loading="lazy">
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -61,7 +62,7 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
 			</article>
-			<article class="conteudo-contato">
+			<article class="conteudo-contato" id="conteudo-contato">
 				<h1>Contato</h1>
 				<hr>
 				<a href="https://icons8.com/icon/85088/whatsapp"><img src="https://img.icons8.com/material-outlined/50/000000/whatsapp--v1.png" id="whatsapp" alt="Whatsapp"></a><p>(21) 98888-9999</p>
@@ -73,5 +74,6 @@
 		<footer>
 			<p class="autor">Criado por: Bruno Rezende. Copyright &copy; 2021. </p>
 		</footer>
+		<script src="efeitos.js"></script>
 	</body>
 </html>
